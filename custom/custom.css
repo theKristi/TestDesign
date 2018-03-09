@@ -1,0 +1,141 @@
+body {
+  
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+
+	
+    color: white
+}
+.bg-custom{
+	background-color:#73868c;
+	/*box-shadow: 0px 4px 25.65px 1.35px #274946;*/
+}
+.navbar {
+    -webkit-box-shadow: 0px 4px 25.65px 1.35px #274946;
+    -moz-box-shadow: 0px 4px 25.65px 1.35px #274946;
+    box-shadow: 0px 4px 25.65px 1.35px #274946;
+
+    /* the rest of your styling */
+}
+.navbar-dark .navbar-nav .active>.nav-link>span, 
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+	padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	
+.navbar-collapse{
+	float: left;
+	width:100%;		
+	background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+	}
+
+#navbar {
+  position: absolute;
+  z-index: 1;
+}
+#menu, .navbar{
+	padding:0;
+}
+.nav-link{
+	text-align:center;
+}
+.nav-item{
+	padding:30px;
+	margin:auto;
+}
+ul.navbar-nav{
+	padding: 80px 10px 80px 10px;
+}
+#overview{
+	position:relative;
+	
+}
+.section1{
+	padding: 0;
+}
+.section1>.text{
+background-color: #5b6b6d;
+padding: 10px 0 10px 0;
+float: none;
+transform: translateY(893px);
+}
+.section1>.text>p{
+	text-align:center;
+	 font-size: 3vh;
+	 font-weight:400;
+
+}
+
+.section1>.text>p.header{
+	font-size: 8vh; 
+	font-weight: 100;
+	line-height: 8vh;/* Approximation due to font substitution */
+	text-align: center;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
+#icon {
+    width:50%; /* you can use % */
+    height: auto;
+}
+.navbar-brand{
+	padding-left:10px;
+}
+
+#overview>.section1{
+    background-image: url("../assets/Layer 5.png");
+    background-repeat: no-repeat;
+	min-width: 100%;
+    min-height: 894px;
+	background-size:cover;
+	background-color:#5b6b6e;
+  
+
+
+}
+#overview>.section2{
+background-color:  #cccccc;
+width: 100%;
+height: 429px;
+float: left;
+}
+.text{
+transform:translateY(90%); 
+float: right;
+
+}
+.text>p{
+	text-align:center;
+	 font-size: 4vh;
+	 font-weight:400;
+
+}
+
+.text>p.header{
+	font-size: 18vh; 
+	font-weight: 100;
+	line-height: 18vh;/* Approximation due to font substitution */
+	text-align: center;
+
