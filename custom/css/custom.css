@@ -73,7 +73,7 @@ float: right;
 	margin:auto;
 	float: left;
 	position: relative;
-   
+   background-color:white;
 	top:30%;
 }
 .textHolder>p{
@@ -103,6 +103,7 @@ float: right;
 	background-size:contain;
 	float:right;
 	padding-right:30%;
+	
 	
 }
 #h1{ font-size: 10vh; 
