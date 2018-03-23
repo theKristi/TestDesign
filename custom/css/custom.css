@@ -112,9 +112,13 @@ float: right;
 	text-align: center; }
 #Examples{
 	background-color: #3db4c3;
+	float:left;
+	width:100%;
 }
 #Videos{
 	background-color: black;
+	float:left;
+	width:100%;
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
