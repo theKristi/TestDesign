@@ -12,13 +12,13 @@
 	float:left;
 }
 
-#Examples>.container>.quad>.center{
+.container>.quad>.center{
 	display:block;
 	
 	
 }
 
-.title span 
+#Examples>.container>.quad>.center>.title>span 
 {
 	text-align:left!important;
 	width:80%;

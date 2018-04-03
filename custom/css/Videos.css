@@ -1,0 +1,42 @@
+#Videos{
+	background-color: black;
+	float:left;
+	width:100%;
+}
+.aboutIcon>span{
+	font-size:4em;
+
+}
+.aboutIcon{
+	padding:50px;
+}
+.column{
+	text-align:center;
+	float:left;
+}
+.frame:hover .image {
+  opacity: 0.3;
+}
+.frame{
+	background-color:black;
+	cursor:pointer;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:100%;
+	height:auto;
+	display:table;
+	position:relative;
+	float:left;
+
+}
+.middle>span.label{
+	font-size:1em;
+	position: absolute; 
+	top: 50%;
+	display: table-cell;
+	vertical-align:middle;
+}
+.frame:hover .middle {
+
+  opacity: 1;
+}

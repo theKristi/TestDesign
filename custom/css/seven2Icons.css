@@ -32,4 +32,10 @@
 .icon-play:before {
     content: "\e902";
 }
+.icon-projector_icon:before {
+    content: "\e903";
+}
+.icon-ticket_icon:before {
+    content: "\e904";
+}
 /* etc */
